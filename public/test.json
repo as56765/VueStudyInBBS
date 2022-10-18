@@ -1,0 +1,107 @@
+{
+  "currentRoute": {
+    "fullPath": "/log",
+    "path": "/log",
+    "query": {},
+    "hash": "",
+    "name": "log",
+    "params": {},
+    "matched": [
+      {
+        "path": "/log",
+        "name": "log",
+        "meta": {},
+        "props": {
+          "default": false
+        },
+        "children": [],
+        "instances": {
+          "default": {}
+        },
+        "leaveGuards": {
+          "Set(0)": []
+        },
+        "updateGuards": {
+          "Set(0)": []
+        },
+        "enterCallbacks": {},
+        "components": {
+          "default": {
+            "__name": "AccountPage",
+            "__hmrId": "5e44da66",
+            "__file": "E:/JavaScript练习/VueFH/src/pages/AccountPage.vue"
+          }
+        }
+      }
+    ],
+    "meta": {},
+    "href": "/log"
+  },
+  "listening": true,
+  "options": {
+    "history": {
+      "location": "/log",
+      "base": "",
+      "state": {
+        "back": null,
+        "current": "/log",
+        "forward": null,
+        "position": 3,
+        "replaced": true,
+        "scroll": {
+          "left": 0,
+          "top": 0
+        }
+      }
+    },
+    "routes": [
+      {
+        "path": "/",
+        "name": "home",
+        "component": {
+          "__name": "HomePage",
+          "__hmrId": "2d1117dc",
+          "__scopeId": "data-v-2d1117dc",
+          "__file": "E:/JavaScript练习/VueFH/src/pages/HomePage.vue"
+        }
+      },
+      {
+        "path": "/log",
+        "name": "log",
+        "component": {
+          "__name": "AccountPage",
+          "__hmrId": "5e44da66",
+          "__file": "E:/JavaScript练习/VueFH/src/pages/AccountPage.vue"
+        }
+      },
+      {
+        "path": "/edit",
+        "name": "edit",
+        "component": {
+          "__name": "EditPage",
+          "__hmrId": "b0727749",
+          "__file": "E:/JavaScript练习/VueFH/src/pages/EditPage.vue"
+        }
+      },
+      {
+        "path": "/my",
+        "name": "my",
+        "component": {
+          "__name": "MyPage",
+          "__hmrId": "7f42e975",
+          "__file": "E:/JavaScript练习/VueFH/src/pages/MyPage.vue"
+        }
+      },
+      {
+        "path": "/search",
+        "name": "search",
+        "component": {
+          "__name": "SearchPage",
+          "__hmrId": "83983298",
+          "__file": "E:/JavaScript练习/VueFH/src/pages/SearchPage.vue"
+        }
+      }
+    ]
+  },
+  "__hasDevtools": true
+}

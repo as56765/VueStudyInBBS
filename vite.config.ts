@@ -1,0 +1,14 @@
+import {defineConfig} from 'vite'
+import vue from '@vitejs/plugin-vue'
+import pxtovw from 'postcss-px-to-viewport'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+    plugins: [vue()],
+    server:{
+        proxy:{
+            "/api":"http://localhost:1337",
+            "/upload":"http://localhost:1337"
+        }
+    }
+})
